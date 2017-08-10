@@ -7,7 +7,6 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
-import android.widget.ImageView;
 
 import com.example.myclient2.R;
 import com.example.myclient2.adapter.ViewPagerAdapter;
@@ -16,12 +15,7 @@ import com.example.myclient2.fragment.DeleteClientFragment;
 import com.example.myclient2.fragment.SearchClientFragment;
 import com.example.myclient2.fragment.ViewClientFragment;
 
-import de.hdodenhof.circleimageview.CircleImageView;
-
 public class HomeScreenActivity extends AppCompatActivity {
-
-    private ImageView img_view_barcode;
-    private CircleImageView img_view_profile_photo;
 
     BottomNavigationView bottomNavigationView;
 
