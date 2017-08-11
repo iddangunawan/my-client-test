@@ -21,7 +21,7 @@ public class DeleteClientFragment extends Fragment {
 
     private DBHandler dbHandler;
 
-    public DeleteClientFragment newInstance() {
+    public static DeleteClientFragment newInstance() {
         DeleteClientFragment fragment = new DeleteClientFragment();
         return fragment;
     }

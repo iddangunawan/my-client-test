@@ -11,4 +11,5 @@ Exploring the Android Design Support Library: Bottom Navigation View
 </ul>
 </li>
 <li><a href="https://farizdotid.com/cara-membuat-navigation-drawer-seperti-bbm-android/">Side Navigation Drawer</a></li>
+<li><a href="https://stackoverflow.com/a/18406930">Research Stack Fragment</a></li>
 </ul>
