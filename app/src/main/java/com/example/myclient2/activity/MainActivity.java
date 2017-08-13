@@ -1,5 +1,6 @@
 package com.example.myclient2.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -106,6 +107,14 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            showToast("Settings");
+            return true;
+        }
+
+        if (id == R.id.action_logout) {
+            showToast("Logout success!");
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
             return true;
         }
 

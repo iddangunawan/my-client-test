@@ -12,4 +12,11 @@ Exploring the Android Design Support Library: Bottom Navigation View
 </li>
 <li><a href="https://farizdotid.com/cara-membuat-navigation-drawer-seperti-bbm-android/">Side Navigation Drawer</a></li>
 <li><a href="https://stackoverflow.com/a/18406930">Research Stack Fragment</a></li>
+<li>
+Implement Basic MVP (Model - View - Presenter)
+<ul>
+<li><a href="http://www.twoh.co/2016/01/belajar-membuat-aplikasi-android-dengan-teknik-mvp-model-view-presenter/">Part 1</a></li>
+<li><a href="https://www.twoh.co/2016/03/06/belajar-membuat-aplikasi-android-dengan-teknik-mvp-part-2/">Part 2</a></li>
+</ul>
+</li>
 </ul>
