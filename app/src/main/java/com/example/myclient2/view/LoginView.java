@@ -1,4 +1,4 @@
-package com.example.myclient2.presenter;
+package com.example.myclient2.view;
 
 /**
  * Created by iddan on 13/08/17.

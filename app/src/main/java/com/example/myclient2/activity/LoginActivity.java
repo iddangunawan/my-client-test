@@ -9,9 +9,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.myclient2.R;
-import com.example.myclient2.presenter.LoginPresenter;
-import com.example.myclient2.presenter.LoginPresenterImp;
-import com.example.myclient2.presenter.LoginView;
+import com.example.myclient2.presenter.login.LoginPresenter;
+import com.example.myclient2.presenter.login.LoginPresenterImp;
+import com.example.myclient2.view.LoginView;
 
 public class LoginActivity extends AppCompatActivity implements LoginView {
 
