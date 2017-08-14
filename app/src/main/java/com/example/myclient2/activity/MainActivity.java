@@ -1,6 +1,5 @@
 package com.example.myclient2.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -23,6 +22,7 @@ import com.example.myclient2.fragment.AddClientFragment;
 import com.example.myclient2.fragment.DeleteClientFragment;
 import com.example.myclient2.fragment.SearchClientFragment;
 import com.example.myclient2.fragment.ViewClientFragment;
+import com.example.myclient2.helper.IntentHandler;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -113,8 +113,8 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.action_logout) {
             showToast("Logout success!");
-            Intent intent = new Intent(this, LoginActivity.class);
-            startActivity(intent);
+
+            IntentHandler.goToActivity(this, this, LoginActivity.class, false);
             return true;
         }
 
